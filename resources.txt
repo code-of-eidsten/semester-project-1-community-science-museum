@@ -1,0 +1,4 @@
+### Design ###
+Colors, shapes and typography ideas  
+- https://m3.material.io/styles/shape/overview  
+- https://paletton.com/

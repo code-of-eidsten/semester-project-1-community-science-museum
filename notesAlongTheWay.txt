@@ -1,0 +1,31 @@
+3. Dec
+Started by editing the project board from the last assignment without copying it. And it had not been graded yet soo.. Welllp! Awful start. :'(
+
+4. Dec
+Made a new project board, started sketching out the rough of the different pages. Went down a rabbithole about how to pick color chemes and styles
+
+5. Dec
+Chose colorpalette with help from https://paletton.com/ - started using the colors and fleshing out a design
+
+6. Dec
+Filled in text on the different sketchpages, started checking out typography.  I'm going to use one font with sans serif. Now I only have to select 
+a "sciency" and readable font - preferably a "basic"/standard font wich is widely supported and web-safe.
+I think I will go for Verdana sans-serif (wich is easily readable even when the text is really small) or the slightly more elegant looking Georgia.. 
+but this one HAS serifs
+
+8. Dec
+It seems neither Georgia or Verdana is a fontstyle that exists in Figma - although "Bebas Neue" seems to be the one other people use to make a 
+"verdana like" font for others to download/add to their own Figma project.. why not just use the Bebas Neue then? 
+Finished the style guide on figma, and made the three wireframe pages ready for tomorrow
+
+9. Dec
+Started on the PC wireframes, decided not to use the backgroundcolor from the sketches because frankly; it looked ugly. I'm sticking to a dark theme with splashes of
+color. Made components for the navbar for pc, tablet and mobile, and footer for all three as well. Started working on the PC homepage.
+
+10. Dec
+Finished the Homepage - I might change things up a bit later, but for now I'm happy with it:)
+On to the Exhibitionspage!
+
+03. Jan
+The rest of december was super hectic both at work and in my privatelife, but I've now managed to make the wireframes PC, Tablet and Mobile.
+Updated the projectboard, and I'm going to make the neccesary HTML files today (hopefully)
