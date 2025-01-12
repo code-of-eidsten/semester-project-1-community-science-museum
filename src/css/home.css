@@ -1,0 +1,14 @@
+/* .imageBox img {
+  width: 10%;
+  height: 10%;
+  display: flex;
+  justify-content: left; 
+} */
+
+.main {
+  background-image: "../assets/images/ar_glasses.jpg";
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
