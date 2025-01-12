@@ -5,10 +5,16 @@
   justify-content: left; 
 } */
 
-.main {
-  background-image: "../assets/images/ar_glasses.jpg";
+.imageBox {
+  background-image: url("https://github.com/code-of-eidsten/semester-project-1-community-science-museum/blob/main/assets/images/ar_glasses.jpg?raw=true");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 80vh;
+  width: 80vw;
+  border-radius: 50px;
+  overflow: hidden;
+  position: absolute;
+  top: 8%;
+  right: -12%;
 }
