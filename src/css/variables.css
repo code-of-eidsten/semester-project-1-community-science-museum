@@ -1,0 +1,18 @@
+/*
+variables for colors, fonts, and other styles that are reused throughout the site. 
+*/
+
+:root {
+  --font-family: "Verdana", sans-serif;
+  --font-size-largest: 36px;
+  --font-size-large: 24px;
+  --font-size-regular: 18px;
+  --font-size-small: 14px;
+  --color-darkest-green: #0e4a4d;
+  --color-lighter-green: #236467;
+  --color-lightest-green: #68999b;
+  --color-pop-green: #aff4c6;
+  --color-contrast-red: #f73f3c;
+  --text-color-light: #fff;
+  --text-color-dark: #1e1e1e;
+}
