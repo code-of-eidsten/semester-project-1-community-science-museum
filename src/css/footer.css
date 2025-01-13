@@ -1,0 +1,23 @@
+.footer{
+    grid-area: footer;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: flex-start;
+    border: 2px solid blue;
+    z-index: 5;
+}
+
+.footer img{
+    width: 100px;
+}
+
+.addressBox{
+    width: 150px;
+}
+.phoneAndOrg{
+    width: 150px;
+}
+.openingHours{
+    width: 250px;
+   /*need to adjust this to the right*/ 
+}
