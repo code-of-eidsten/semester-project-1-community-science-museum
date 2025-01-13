@@ -30,6 +30,10 @@
   height: 200px;
   border-radius: 100%;
   background-color:antiquewhite;
+  /*add shadow and make it look better, 
+  like in figma -- aaand it's not circular. great.
+  */
+  text-shadow: 0 0 50px white;
 }
 
 .forKidsText{
