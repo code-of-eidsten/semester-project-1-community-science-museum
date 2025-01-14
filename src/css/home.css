@@ -73,11 +73,17 @@
 /* For Firefox */
 .forKidsText {
   scrollbar-width: thin;
-  scrollbar-color: var(--color-pop-green) transparent; /* Change the color of the scrollbar thumb and track */
+  scrollbar-color: var(--color-pop-green) transparent; /* Change the color of the scrollbar thumb and track all in one, nice! :D*/
 }
 
 .priceText {
   position: absolute;
-  bottom: 100px; /* Adjust as needed */
-  right: 10px; /* Adjust as needed */
+  font-family: var(--font-family);
+  font-size: var(--font-size-largest);
+  color: var(--color-darkest-green);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--color-pop-green);
+  padding: 10px;
+  bottom: 100px;
+  right: 10px;
 }
