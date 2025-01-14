@@ -1,6 +1,7 @@
 .container {
+  position: relative;
   display: grid;
-  grid-template-areas: "nav" "main" "footer" ;
+  grid-template-areas: "nav" "main" "footer";
 }
 .main {
   grid-area: main;
@@ -21,32 +22,62 @@
   top: 8%;
   right: -12%;
 }
-.circleTitle{
+.circleTitle {
   color: var(--text-color-dark);
+  font-size: var(--font-size-large);
+  font-family: var(--font-family);
+  margin-left: 25%;
 }
-.forKidsCircle{
-  border: 1px solid whitesmoke;
-  width: 220px;
-  height: 200px;
+.forKidsCircle {
+  border: 2px solid antiquewhite;
+  width: 390px;
+  height: 350px;
   border-radius: 100%;
-  background-color:antiquewhite;
-  /*add shadow and make it look better, 
-  like in figma -- aaand it's not circular. great.
-  */
-  text-shadow: 0 0 50px white;
+  background-color: var(--text-color-light);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5) /* Outer shadow */,
+    inset 0 0 20px rgba(0, 0, 0, 0.3); /* Inner shadow */
 }
 
-.forKidsText{
+.forKidsText {
   color: var(--text-color-dark);
+  font-family: var(--font-family);
   display: flex;
   overflow-y: scroll;
   overflow-x: hidden;
   scroll-snap-type: y mandatory;
   touch-action: pan-y;
-  height: 250px;
-  width: 200px;
-  margin-left: 10%;
-  margin-top: -10%;
+  height: 150px;
+  width: 270px;
+  margin-left: 20%;
+  margin-top: -5%;
   /*need to add some extra space on the bottom, so all text can be seen*/
-  margin-bottom: 150px;
+  padding-bottom: 105px;
+}
+
+/* Custom scrollbar styling */
+.forKidsText::-webkit-scrollbar {
+  width: 10px;
+}
+
+.forKidsText::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.forKidsText::-webkit-scrollbar-thumb {
+  background-color: var(--color-pop-green);
+  border-radius: 10px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+/* For Firefox */
+.forKidsText {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-pop-green) transparent; /* Change the color of the scrollbar thumb and track */
+}
+
+.priceText {
+  position: absolute;
+  bottom: 100px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
 }
