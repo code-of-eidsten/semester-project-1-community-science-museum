@@ -1,23 +1,30 @@
-.footer{
-    grid-area: footer;
-    display: flex;
-    /* justify-content: space-between; */
-    align-items: flex-start;
-    border: 2px solid blue;
-    z-index: 5;
+.footer {
+  grid-area: footer;
+  display: flex;
+  font-family: var(--font-family);
+  align-items: flex-start;
+  z-index: 5;
 }
 
-.footer img{
-    width: 100px;
+.footer img {
+  width: 100px;
 }
 
-.addressBox{
-    width: 150px;
+.addressBox {
+  width: 150px;
 }
-.phoneAndOrg{
-    width: 150px;
+.phoneAndOrg {
+  width: 150px;
 }
-.openingHours{
-    width: 250px;
-   /*need to adjust this to the right*/ 
+.openingHours {
+  width: 290px;
+  margin-top: 12px;
+  margin-left: auto; /* Pushes the element to the far right */
+}
+
+.thicker {
+  font-weight: bold;
+}
+.closed {
+  color: var(--color-contrast-red);
 }

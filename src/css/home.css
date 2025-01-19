@@ -5,7 +5,6 @@
 }
 .main {
   grid-area: main;
-  border: 2px solid red;
   height: 80vh;
   overflow: hidden;
 }
@@ -28,7 +27,7 @@
   font-family: var(--font-family);
   margin-left: 25%;
 }
-.forKidsCircle {
+.circle {
   border: 2px solid antiquewhite;
   width: 390px;
   height: 350px;
@@ -38,7 +37,7 @@
     inset 0 0 20px rgba(0, 0, 0, 0.3); /* Inner shadow */
 }
 
-.forKidsText {
+.circleText {
   color: var(--text-color-dark);
   font-family: var(--font-family);
   display: flex;
@@ -55,15 +54,15 @@
 }
 
 /* Custom scrollbar styling */
-.forKidsText::-webkit-scrollbar {
+.circleText::-webkit-scrollbar {
   width: 10px;
 }
 
-.forKidsText::-webkit-scrollbar-track {
+.circleText::-webkit-scrollbar-track {
   background: transparent;
 }
 
-.forKidsText::-webkit-scrollbar-thumb {
+.circleText::-webkit-scrollbar-thumb {
   background-color: var(--color-pop-green);
   border-radius: 10px;
   border: 2px solid transparent;
@@ -71,9 +70,28 @@
 }
 
 /* For Firefox */
-.forKidsText {
+.circleText {
   scrollbar-width: thin;
   scrollbar-color: var(--color-pop-green) transparent; /* Change the color of the scrollbar thumb and track all in one, nice! :D*/
+}
+
+.kidsCircle {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+.teachersCircle {
+  position: absolute;
+  top: 45%;
+  left: 15%;
+}
+.researchersCircle {
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  width: 350px;
+  height: 300px;
 }
 
 .priceText {
@@ -86,4 +104,29 @@
   padding: 10px;
   bottom: 100px;
   right: 10px;
+}
+
+/* smaller screens */
+@media (max-width: 1200px) {
+  .researchersCircle {
+    left: 70%;
+  }
+}
+
+@media (max-width: 992px) {
+  .researchersCircle {
+    left: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .researchersCircle {
+    left: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .researchersCircle {
+    left: 40%;
+  }
 }
