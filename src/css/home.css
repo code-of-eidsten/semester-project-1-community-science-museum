@@ -26,6 +26,7 @@
   font-size: var(--font-size-large);
   font-family: var(--font-family);
   margin-left: 25%;
+  padding:1px;
 }
 .circle {
   border: 2px solid antiquewhite;
